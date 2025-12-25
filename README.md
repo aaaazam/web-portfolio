@@ -1,4 +1,4 @@
-If you want to fork this to use for yourself make sure these are done once you fork:
+Make sure these are done in order for functionality:
 
 Access the package.json file and update the github link to match the same github repo as you.
 
