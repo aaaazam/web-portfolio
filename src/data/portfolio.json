@@ -1,30 +1,30 @@
 {
   "personal": {
-    "name": "Steven Tung",
+    "name": "Arefin Azam",
     "school": "Stony Brook University",
-    "zipCode": "11357",
+    "zipCode": "11416",
     "profilePicture": "/profile.png",
-    "briefDescription": "Computer Science student passionate about building innovative solutions. Pursuing BS/MS at Stony Brook University with experience in cloud and full-stack development.",
+    "briefDescription": "Aspiring digital IC and hardware design engineer pursuing a BS/MS in Computer Engineering at Stony Brook University, with experience in RTL design, VLSI, and computer architecture.",
     "aboutMe": "I'm a passionate computer science student with a strong foundation in software development and distributed systems. Currently pursuing both a Bachelor's and Master's degree in Computer Science at Stony Brook University, I thrive on solving complex problems and building scalable solutions.",
     "interests": [
-      "Distributed Systems",
-      "Full-Stack Development",
+      "Computer Architecture",
+      "RTL Design",
       "Cloud Computing"
     ],
     "socialLinks": [
       {
         "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/steventung/",
+        "url": "https://www.linkedin.com/in/arefin-azam/",
         "icon": "linkedin"
       },
       {
         "name": "GitHub",
-        "url": "https://github.com/yourusername",
+        "url": "https://github.com/aaaazam",
         "icon": "github"
       },
       {
         "name": "Email",
-        "url": "mailto:steventung666@gmail.com",
+        "url": "mailto:arefinazam20@gmail.com",
         "icon": "email"
       }
     ]
