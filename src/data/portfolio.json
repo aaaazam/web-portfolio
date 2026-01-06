@@ -2,8 +2,8 @@
   "personal": {
     "name": "Arefin Azam",
     "school": "Stony Brook University",
-    "zipCode": "11416",
-    "profilePicture": "/profile.png",
+    "zipCode": "11417",
+    "profilePicture": "/web-portfolio/profile.png",
     "briefDescription": "Aspiring digital IC and hardware design engineer pursuing a BS/MS in Computer Engineering at Stony Brook University, with experience in RTL design, VLSI, and computer architecture.",
     "aboutMe": "I'm a passionate computer science student with a strong foundation in software development and distributed systems. Currently pursuing both a Bachelor's and Master's degree in Computer Science at Stony Brook University, I thrive on solving complex problems and building scalable solutions.",
     "interests": [
@@ -32,11 +32,11 @@
   "projects": [
     {
       "id": 1,
-      "title": "Distributed Banking System",
+      "title": "GPU-Accelerated Single-Source Shortest Path",
       "description": "Created a fault-tolerant distributed banking system using Two-Phase Commit and Paxos consensus algorithm to ensure atomic transactions and data consistency across multiple clusters. As a bonus, also implemented a byzantine fault-tolerant project using PBFT.",
-      "technologies": ["Python", "SQLite", "gRPC"],
+      "technologies": ["CUDA", "OpenCV"],
       "repository": "https://github.com/yourusername/portfolio",
-      "date": "2025",
+      "date": "Fall 2025",
       "highlights": [
         "Implemented a fault-tolerant distributed banking system, integrating Two-Phase Commit (2PC) for atomic transaction processing and Paxos consensus algorithm for coordinating operations across clusters, ensuring data consistency",
         "Developed multi-cluster sharding with multiprocessing and gRPC communication, supporting concurrent transaction processing and dynamic resharding using hypergraph partitioning to reduce cross-shard operations",
@@ -46,11 +46,11 @@
     },
     {
       "id": 2,
-      "title": "Real Time Transit Tracker",
+      "title": "Pipelined 8-Bit Carry Select Adder (Custom CMOS Design & Layout)",
       "description": "Developed a full-stack web application that provides real-time tracking of buses and trains using transit feeds, integrating a responsive frontend with a robust backend to deliver up-to-date transit information to users.",
-      "technologies": ["Node.js", "TypeScript", "React", "Tailwind CSS", "MongoDB"],
+      "technologies": ["Cadence Virtuoso", "Digital Design", "CMOS"],
       "repository": "https://github.com/yourusername/task-manager",
-      "date": "2024",
+      "date": "2025",
       "highlights": [
         "Developed a real-time bus and train tracker by utilizing transit feeds to provide users with automated up-to-date information related to vehicle locations, stop data, route information, and arrival times",
         "Created a clean and responsive frontend using Tailwind CSS, allowing users to search, sort, and customize the presented information. Integrated map plotting to provide a visual representation of routes",
@@ -60,9 +60,9 @@
     },
     {
       "id": 3,
-      "title": "Electronic Medical Records Database",
+      "title": "Four-Stage Pipelined Multimedia Unit",
       "description": "Led the development of a custom Electronic Medical Records (EMR) system to digitize and organize patient records, improving accessibility and efficiency for clinical staff through automated document processing and user-friendly tools.",
-      "technologies": ["Node.js", "TypeScript", "React", "Tailwind CSS", "MongoDB"],
+      "technologies": ["SystemVerilog", "Python", "", "Tailwind CSS", "MongoDB"],
       "repository": "https://github.com/yourusername/data-viz",
       "date": "2025",
       "highlights": [
@@ -73,7 +73,7 @@
     },
     {
       "id": 4,
-      "title": "Password Vault",
+      "title": "Matrix–Matrix Multiplier Hardware Accelerator",
       "description": "Developed a secure password manager which leverages AES encryption and SHA-256 hashing for safeguarding sensitive information. Users can utilize features such as adding, deleting, updating, or looking up password entries.",
       "technologies": ["Python"],
       "repository": "https://github.com/yourusername/data-viz",
@@ -82,28 +82,42 @@
         "Built a secure password manager which leverages AES encryption and SHA-256 hashing for safeguarding sensitive information. Users can utilize features such as adding, deleting, updating, or looking up password entries",
         "Uses scrypt for key derivation and nonce management, with validation to prevent brute-force attacks & ensure integrity"
       ]
+    },
+    {
+      "id": 5,
+      "title": "Multi-Digit Seven-Segment Display Driver with Write-Only SPI",
+      "description": "Developed a secure password manager which leverages AES encryption and SHA-256 hashing for safeguarding sensitive information. Users can utilize features such as adding, deleting, updating, or looking up password entries.",
+      "technologies": ["VHDL", "Synplify", "Active-HDL"],
+      "repository": "https://github.com/yourusername/data-viz",
+      "date": "2024",
+      "highlights": [
+        "Designed a real-time, multiplexed seven-segment display controller in VHDL supporting multi-digit numeric output.",
+        "Implemented a write-only SPI interface with precise timing and control sequencing.",
+        "Built a self-checking testbench and a parameterized RTL architecture for scalable digit counts."
+      ]
     }
+
   ],
   "education": [
     {
       "id": 1,
       "school": "Stony Brook University",
-      "logo": "/sbu-logo.png",
-      "degree": "Bachelor of Science in Computer Science and Applied Mathematics and Statistics",
+      "logo": "/web-portfolio/sbu-logo.png",
+      "degree": "Bachelor of Engineering in Computer Engineering",
       "startDate": "2021",
       "endDate": "2025",
       "location": "Stony Brook, New York",
-      "awards": ["🏆 Magna Cum Laude", "Dean's List", "Presidential Scholarship"]
+      "awards": []
     },
     {
       "id": 2,
       "school": "Stony Brook University",
-      "logo": "/sbu-logo.png",
-      "degree": "Masters of Science in Computer Science",
-      "startDate": "2025",
+      "logo": "/web-portfolio/sbu-logo.png",
+      "degree": "Masters of Science in Computer Engineering",
+      "startDate": "2024",
       "endDate": "2026",
       "location": "Stony Brook, New York",
-      "awards": ["🏆 Cum Laude"]
+      "awards": []
     }
   ],
   "experience": [
@@ -111,7 +125,7 @@
       "id": 1,
       "company": "Microsoft",
       "location": "Reston, Virginia",
-      "logo": "/msft-logo.png",
+      "logo": "/web-portfolio/msft-logo.png",
       "roles": [
         {
           "position": "Incoming Software Engineer",
@@ -140,7 +154,7 @@
       "id": 2,
       "company": "United States Federal Government",
       "location": "Langley, Virginia",
-      "logo": "/company-logo2.png",
+      "logo": "/web-portfolio/company-logo2.png",
       "roles": [
         {
           "position": "Computer Science Intern",
@@ -160,7 +174,7 @@
       "id": 3,
       "company": "Stony Brook University",
       "location": "Stony Brook, New York",
-      "logo": "/company-logo2.png",
+      "logo": "/web-portfolio/company-logo2.png",
       "roles": [
         {
           "position": "Graduate Teaching Assistant",
@@ -191,8 +205,8 @@
   "courses": [
     {
       "id": 1,
-      "department": "CSE",
-      "courseNumber": "101",
+      "department": "ESE",
+      "courseNumber": "118",
       "name": "Computer Science Principles",
       "description": "Introduces central ideas of computing and computer science, instills practices of algorithmic and computational thinking, and engages students in the creative aspects of the field. Also introduces appropriate computing technology as a means for solving computational problems and exploring creative endeavors. Includes weekly computer programming assignments, but assumes no previous programming experience.",
       "semester": "Fall",
@@ -201,9 +215,9 @@
     },
     {
       "id": 2,
-      "department": "CSE",
-      "courseNumber": "214",
-      "name": "Data Structures",
+      "department": "ESE",
+      "courseNumber": "280",
+      "name": "Embedded Systems Design and Programming I",
       "description": "Study of abstract data types including stacks, queues, lists, trees, and graphs. Implementation and analysis of algorithms.",
       "semester": "Fall",
       "year": "2021",
@@ -211,8 +225,8 @@
     },
     {
       "id": 3,
-      "department": "AMS",
-      "courseNumber": "301",
+      "department": "ESE",
+      "courseNumber": "224",
       "name": "Finite Mathematical Structures",
       "description": "Topics include sets, functions, relations, graphs, and combinatorics with applications to computer science.",
       "semester": "Spring",
@@ -221,12 +235,22 @@
     },
     {
       "id": 4,
-      "department": "PHY",
-      "courseNumber": "131",
+      "department": "ESE",
+      "courseNumber": "344",
       "name": "Physics I",
       "description": "Topics include sets, functions, relations, graphs, and combinatorics with applications to computer science.",
       "semester": "Fall",
       "year": "2021",
+      "grade": ""
+    },
+    {
+      "id": 5,
+      "department": "ESE",
+      "courseNumber": "331",
+      "name": "Semiconductor Devices",
+      "description": "",
+      "semester": "Summer",
+      "year": "2024",
       "grade": ""
     }
   ]

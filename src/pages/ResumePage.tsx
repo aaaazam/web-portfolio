@@ -12,8 +12,8 @@ export default function ResumePage() {
           </h1>
           <Button asChild variant="default">
             <a
-              href="/resume.pdf"
-              download="My_Resume.pdf"
+              href="/aa_resume.pdf"
+              download="Arefin_Azam_Resume.pdf"
               className="flex items-center gap-2"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
